@@ -32,7 +32,7 @@ view: adgroups {
       quarter,
       year
     ]
-    convert_tz: no
+    #convert_tz: no
     datatype: date
     sql: ${TABLE}.created_at ;;
   }

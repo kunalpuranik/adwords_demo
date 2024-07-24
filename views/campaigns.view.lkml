@@ -174,7 +174,7 @@ derived_table: {
       quarter,
       year
     ]
-    convert_tz: no
+    #convert_tz: no
     datatype: date
     sql: ${TABLE}.CREATED_AT ;;
   }
@@ -189,7 +189,7 @@ derived_table: {
       quarter,
       year
     ]
-    convert_tz: no
+    #convert_tz: no
     datatype: date
     sql: date_add(${created_date}, INTERVAL ${period} DAY) ;;
   }
