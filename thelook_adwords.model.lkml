@@ -1,6 +1,6 @@
 label: "Digital Marketing"
 
-connection: "sample_bigquery_connection"
+connection: "looker-private-demo"
 
 include: "*/*.view.lkml"         # include all views in this project
 include: "dashboards/*.dashboard.lookml"  # include all dashboards in this project
